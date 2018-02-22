@@ -1,0 +1,77 @@
+*{
+	margin:0;
+	padding:0;
+	overflow-x: visible; 
+}
+h1{
+	font-family: Raleway;
+	background: Maroon;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	font-size: 40px;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	
+	
+
+}
+.nav{
+	font-family: Raleway;
+	background: Tan;
+	padding: 10px;
+	position: fixed;
+	width: 100%;
+	top:80px;
+	z-index: 10;
+	
+
+
+}
+.nav li {
+	display: inline;
+	padding-left: 50px;
+	right:50px;
+}
+.nav a{
+	text-decoration: none;
+	color: black;
+}
+.nav a:hover{
+	color: white;
+	transition: .25s;
+}
+
+p{
+	font-family: Raleway;
+
+	margin: 0 0 30px 200px;
+}
+#thumb{
+	
+	top: 80px;
+	width: 600px;
+	margin: 200px 0 0 200px;
+}
+#pic{
+	width: 600px;
+	margin: 100px 0 0 200px;
+
+}
+footer{
+	background: Tan;
+	padding: 10px;
+}
+footer li{
+	font-size: 15px;
+
+	font-family: Raleway;
+	padding-left: 70px;
+	display: inline;
+	position: relative;
+	left: 400px;
+	list-style: none;
+	color: gray;
+
+}
